@@ -24,3 +24,4 @@ def sort(container: Sequence[int]) -> Sequence[int]:
         unsorted_length -= 1
     if not swap_flag:
         return container
+    return container
